@@ -18,7 +18,6 @@
   },
   "parserOptions": {
     "ecmaVersion": 2018,
-    "project": "tsconfig.json",
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -42,7 +41,8 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "camelcase": "off"
   },
   "settings": {
     "import/resolver": {
