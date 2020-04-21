@@ -21,7 +21,9 @@
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "project": "packages/two/tsconfig.json",
+    "tsconfigRootDir": "."
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
